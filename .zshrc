@@ -40,3 +40,11 @@ export CGMSQ='/Users/mwilde/Dropbox/CGM2'
 # export PS1=“\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ ”
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
+### Jeff's terminal colors
+## removed user and machine from prompt. 
+# export PS1=“\[\033[36m\][\033[m\][\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ ”
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+PROMPT='%~ %# '
+# export DEFAULT_USER=$USER
